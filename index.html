@@ -1,410 +1,233 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artisan Haven Furniture</title>
-
-    <!-- Style Css Link -->
     <link rel="stylesheet" href="style.css">
-    <!-- Style Css Link -->
-
-    <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Font Awesome Cdn -->
-
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
+    
+    <header class="header">
+        <img src="images/logo.png" id="logo" alt="">
 
-    <!-- Header Start -->
-    <div class="header">
-        <nav>
-            <input type="checkbox" id="show-search">
-            <input type="checkbox" id="show-menu">
-            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-            <div class="content">
-                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
-
-                <ul class="links">
-                    <li><a href="#" id="first">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#product">Products</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#review">Reviews</a></li>
-                </ul>
-            </div>
-            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
-            <form action="#" class="search-box">
-                <input type="text" placeholder="Search" required>
-                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-            </form>
-
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">contact</a>
         </nav>
+
+        <div class="icons">
+            <div id="menubar" class="fas fa-bars"></div>
+            <a href="#">contact</a>
+        </div>
+    </header>
+
+    <div class="background-image">
+        <div class="background-content">
+            <h1>provide an exceptional <br> patient experience</h1>
+            <p>At our clinic, we prioritize an exceptional patient experience by offering personalized care in a welcoming environment.</br>
+                 Our skilled medical team listens attentively to your concerns and provides clear, compassionate communication throughout your visit.</br> 
+                 We ensure minimal wait times and a comfortable setting to enhance your overall experience. Advanced technology and continuous staff training enable us to deliver the highest standard of care. 
+                Your health and satisfaction are our utmost priorities, making every visit a positive and reassuring experience. </p>
+            <a href="#">Read more</a>
+        </div>
     </div>
-    <!-- Header End -->
+
+    <div class="about">
+        <div class="main-about">
+            <div class="inner-about">
+                <div class="about-content">
+                    <h1>about us</h1>
+                <p>where we are dedicated to providing comprehensive and compassionate health care to our community. </br>
+                    Our mission is to enhance the well-being of every patient through excellence in clinical care, education, and research.</br> 
+                    With a network of state-of-the-art facilities and a team of experienced medical professionals, we offer a wide range of services designed to meet the diverse needs of our patients.</p>
+                <a href="#">Read more</a>
+                </div>
+                
+            </div>
+            <div class="inner-about">
+                <div class="inner-about-image">
+                    <img src="images/chiness.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services">
+        <div class="service-content">
+            <div class="left-service-content">
+                <h1>Our special services</h1>
+                <p>Experience convenient access to healthcare with our telemedicine services.</br>
+                     Consult with our experienced medical professionals from the comfort of your home via video or phone appointments.</br>
+                      Receive expert advice, diagnosis, and treatment plans without the need for in-person visits, saving you time and ensuring continuity of care.</p>
+            </div>
+
+            <div class="right-service-content">
+                <div class="right-btn">
+                    <a href="#">See all services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-services">
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-notes-medical"></i>
+                </div>
+                <h2>health care</h2>
+                
+            </div>
+
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-hospital-user"></i>
+                </div>
+                <h2>health care</h2>
+               
+            </div>
+
+            <div class="inner-services-content">
+                <div class="service-icon">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <h2>health care</h2>
+               ]
+                
+            </div>
+        </div>
+    </div>
 
 
+    <div class="gallery">
+        <h1>Gallery</h1>
+        <div class="main-gallery">
+            <div class="inner-gallery">
+                <img src="images/gal1.jpg" alt="">
+            </div>
 
+            <div class="inner-gallery">
+                <img src="images/gal2.jpg" alt="">
+            </div>
 
+            <div class="inner-gallery">
+                <img src="images/gal3.jpg" alt="">
+            </div>
 
-    <!-- Home Section Start -->
-    <div class="home">
-        <div class="main-text">
-            <h1>Discover The Best <br>Furniture For You</h1>
+            <div class="inner-gallery">
+                <img src="images/gal4.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal5.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="why-choseus">
+    <div class="main-chose">
+        <div class="inner-chose">
+            <img src="images/cute.jpg" alt="">
+        </div>
+
+        <div class="inner-chose">
+            <h1>why chose us </h1>
+
+            <div class="inner-chose-content">
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-notes-medical"></i>
+                    </div>
+                    <div class="icon-content">
+                        
+                    </div>
+                </div>
+
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-hospital-user"></i>
+                        
+                    </div>
+                    <div class="icon-content">
+                        
+                </div>
+
+                <div class="main-inner-chose">
+                    <div class="chose-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="icon-content">
+                       
+                </div>
+            </div>
             
-            <button id="btn">View More</button>
+
         </div>
     </div>
-    <!-- Home Section End -->
-
-
-
-
-
-    <!-- Top Section Card Start -->
-    <section class="offers">
-        <div class="offer-content">
-            <div class="row">
-                <i class="fa-solid fa-truck-fast"></i>
-                <h3>Free Delivery</h3>
-                
-            </div>
-            <div class="row">
-                <i class="fa-solid fa-headset"></i>
-                <h3>Support 24/7</h3>
-                
-            </div>
-            <div class="row">
-                <i class="fa-solid fa-rotate-left"></i>
-                <h3>30 Day Return</h3>
-                
-            </div>
-            <div class="row">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <h3>Secure Shopping</h3>
-                
-            </div>
-        </div>
-    </section>
-    <!-- Top Section Card End -->
-
-
-
-
-
-    <!-- About Section Start -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="./images/about-img.png" alt="">
-        </div>
-        <div class="about-text">
-            <h3>Furniture service About us</h3>
-            
-            <button id="about-btn">Read More...</button>
-        </div>
-
-    </section>
-    <!-- About Section End -->
-
-
-
-
-
-    <!-- Product Section Start -->
-    <section class="product" id="product">
-        <div class="main-txt">
-            <h3>Products</h3>
-        </div>
-        <div class="card-content">
-            <div class="row">
-                <img src="./images/p1.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p2.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p3.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p4.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-content">
-            <div class="row">
-                <img src="./images/p5.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p6.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p7.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p8.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- Product Section End -->
-
-
-
-
-
-    <!-- Banner Start -->
-    <div class="banner">
-        <div class="banner-content">
-            <h5>Get Discount Up To 50%</h5>
-            <h3>Best Deal For Weak</h3>
-            <p>Get up to 50% off this weak and get offer <br>Don't miss</p>
-            <button><a href="#products">Order</a></button>
-        </div>
-    </div>
-    <!-- Banner End -->
-
-
-
-
-
-
-    <!-- Sale Products Start -->
-    <section class="product" id="products" style="margin-top: 50px;">
-        <div class="main-txt">
-            <h3>50% off products</h3>
-        </div>
-        <div class="card-content">
-            <div class="row">
-                <img src="./images/p9.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p10.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p11.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-            <div class="row">
-                <img src="./images/p12.png" alt="">
-                <div class="card-body">
-                    <h3>Chair</h3>
-                    
-                    <h5>Price $999</h5>
-                    <button>Order Now</button>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- Sale Products End -->
-
-
-
-
-
-    <!-- Our Gallary Start -->
-    <div class="gallary">
-        <h3>Our Gallary</h3>
-        <div class="gallary-img">
-            <div class="img1">
-                <img src="./images/g1.png" alt="">
-            </div>
-            <div class="img1">
-                <img src="./images/g2.png" alt="">
-                <img src="./images/g3.png" alt="">
-            </div>
-        </div>
-    </div>
-    <!-- Our Gallary End -->
-
-
-
-
-
-    <!-- Contact Section Start -->
-    <section class="contact" id="contact">
-        <div class="content-text">
-            <h2>Get In <span>Touch</span></h2>
-            <p> Welcome to Artisan Haven Furniture , where quality, craftsmanship, and customer satisfaction are our top priorities. we have been dedicated to providing exceptional furniture solutions for homes and businesses. Our passion for beautiful and functional design drives us to offer a diverse range of furniture that combines style, comfort, and durability.</p>
-            <div class="list">
-                <li><a href="#">+91 9597903653</a></li>
-                <li><a href="#">aswinsom@gmail.com</a></li>
-                <li><a href="#">India</a></li>
-            </div>
-        </div>
-
-        <div class="contact-form">
-            <form action="#">
-                <input type="name" placeholder="Name" required>
-                <input type="number" placeholder="Phone" required>
-                <input type="email" placeholder="Email" required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="Message"></textarea>
-                <input type="submit" value="Send" class="submit" required>
-
-            </form>
-        </div>
-
-    </section>
-    <!-- Contact Section End -->
-
-
-
-
-
-    <!-- Review Section Start -->
-    <section class="review" id="review">
-        <div class="main-txt">
-            <h3>Customers <span>Review</span></h3>
-        </div>
-
-        <div class="review-content">
-        <div class="box">
-        <div class="img">
-            <img src="./images/pic-1.png" alt="">
-        </div>
-        <h3>Elon Musk</h3>
-        <div class="star">
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-        </div>
-        
-
-    </div>
-        <div class="box">
-        <div class="img">
-            <img src="./images/pic-2.png" alt="">
-        </div>
-        <h3>Elon Musk</h3>
-        <div class="star">
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-        </div>
-        
-
-    </div>
-        <div class="box">
-        <div class="img">
-            <img src="./images/pic-3.png" alt="">
-        </div>
-        <h3>Elon Musk</h3>
-        <div class="star">
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-            <i class="fa-solid fa-star checked"></i>
-        </div>
-        
-
-    </div>
-
 </div>
 
-    </section>
-    <!-- Review Section End -->
 
 
+<div class="our-doctors">
+    <h1>Our special doctors</h1>
 
-
-
-    <!-- Footer Start -->
-    <footer id="footer">
-        <div class="footer-content">
-            <div class="logo">
-                <img src="./images/logo.png" alt="">
-            </div>
-
-           
-            
-            <div class="socail-links">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
+    <div class="main-doctor">
+        <div class="inner-doctor">
+            <img src="images/gal3.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
             </div>
         </div>
-        <hr>
-        <div class="footer-bottom-content">
-            <p>Designed By <a href="#">SA Coding</a></p>
-            <div class="copyright">
-                <p>&copy;Copyright <strong>SA Coding</strong>.All Rights Reserved</p>
+
+        <div class="inner-doctor">
+            <img src="images/gal2.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
             </div>
         </div>
-    </footer>
-    <!-- Footer End -->
-    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+        <div class="inner-doctor">
+            <img src="images/gal5.jpg" alt="">
+            <div class="doc-icons">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-twitter"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-linkedin"></div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="main-footer">
+        <div class="inner-footer">
+            <img src="images/logo.png" alt="">
+        </div>
+
+       
+</div>
 
 
 
@@ -425,5 +248,18 @@
 
 
 
+
+
+<script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+<!-- provide an exceptional patient experience
+<i class="fas fa-notes-medical"></i>
+<i class="fas fa-hospital-user"></i>
+<i class="fas fa-user-md"></i>
+-->
